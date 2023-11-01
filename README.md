@@ -2,6 +2,8 @@
 Repository for EHEP 2024 school at TIFR
 
 ## Setup
+The codebase has been tested with python=3.11.*. Compatibility with lower python versions is not guaranteed.
+
 Follow the following commands to setup this repository to work on your system:
 
 ```
