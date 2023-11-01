@@ -25,7 +25,6 @@ plt.savefig("results/dice_hist.png")
 print("Histogram saved at results/dice_hist.png.")
 plt.show()
 
-
 # draw scatterplot
 plt.scatter(die1_res, die2_res)
 plt.xlabel("Die 1")
