@@ -68,10 +68,10 @@ with open("results/numbers10.txt", "+w") as numfile:
     print("10 entries per line written to results/numbers10.txt.")
 
 # write random entries per line to file
-with open("results/multi_numbers.txt", "+w") as num10file:
+with open("results/multi_numbers.txt", "+w") as numfile:
     rand_size_list = numbers_with_fixed_sum(5, 15, len(numbers))    # create an array of random sizes per line
     num_rand_per_row = list(batched(numbers, rand_size_list))
-    num10file.write('\n'.join([" ".join(map(str, nums)) for nums in num_rand_per_row]))
+    numfile.write('\n'.join([" ".join(map(str, nums)) for nums in num_rand_per_row]))
     print("Random no. of entries per line written to results/multi_numbers.txt.")
 
 # open and read file with random number of entries per line
