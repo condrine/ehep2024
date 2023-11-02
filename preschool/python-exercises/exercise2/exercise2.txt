@@ -1,0 +1,18 @@
+1. Consider the following 2 lists:
+b = [2, 3, 4, 5, 6]  
+p = [3, 4, 5, 6, 7] 
+      
+calculate element-wise math.pow(b,p) using 
+- a basic loop
+- map
+- list comprehension
+
+2. Answer what you expect the output to be before running the code!
+fruits = ['red apple', 'green apple', 'banana', 'kiwi']
+for fruit in fruits:
+    if 'apple' in fruit:
+        fruits.append(fruit)
+	print('Added a', fruit)
+
+3. Count number of unique characters and occurrance frequency of each character in the string
+str = 'AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC'
